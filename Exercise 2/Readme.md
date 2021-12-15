@@ -29,9 +29,11 @@ This time we will fuzz **libexif** EXIF parsing library. The goal is to find a c
 
 ## What you will learn
 Once you complete this exercise you will know how:
+
 - To fuzz a library using an external application.
 - To use **afl-clang-lto**, a collision free instrumentation that is faster and provides better results than *afl-clang-fast*.
 - To use Eclipse IDE as an easy alternative to GDB console for triaging.
+
 
 ## Read Before Start
 - I suggest you to try to **solve the exercise by yourself** without checking the solution. Try as hard as you can, and only if you get stuck, check out the example solution below.
@@ -95,6 +97,7 @@ make install
 ### Choosing an interface application
   
 Since libexif is a library, we'll need another application that makes use of this library and which will be fuzzed. For this task we're going to use **exif command-line**. Type the following for download and uncompressing exif command-line 0.6.15:
+
 ```shell
 cd $HOME/fuzzing_libexif
 wget https://github.com/libexif/exif/archive/refs/tags/exif-0_6_15-release.tar.gz
