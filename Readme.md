@@ -12,17 +12,18 @@ If so, this is the course for you!
 | ------------- | ------------- | ------------- |  ------------- | ------------- |
 | [Exercise 1](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%201) | Xpdf  | CVE-2019-13288 | 120 mins | Afl-clang-fast, Afl-fuzz, GDB |
 | [Exercise 2](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%202)  | libexif  |  CVE-2009-3895, CVE-2012-2836 | 6 hours | Afl-clang-lto, Fuzz libraries, Eclipse IDE|
-| [Exercise 3](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%203)  | TCPdump  | CVE-2017-13028 | 4 hours | ASan |
+| [Exercise 3](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%203)  | TCPdump  | CVE-2017-13028 | 4 hours | ASan, Sanitizers |
 | [Exercise 4](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%204)  | LibTIFF  | CVE-2016-9297 | 3 hours | Code coverage, LCOV |
 | [Exercise 5](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%205)  | Libxml2  | CVE-2017-9048 | 3 hours | Dictionaries, Basic parallelization, Fuzzing command-line arguments  |
-| [Exercise 6](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%206)  | GIMP  | CVE-2016-4994, Bonus bugs | 7 hours | Persistent fuzzing |
+| [Exercise 6](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%206)  | GIMP  | CVE-2016-4994, Bonus bugs | 7 hours | Persistent fuzzing, Fuzzing interactive applications|
 | [Exercise 7](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%207)  | VLC media player | CVE-2019-14776 | 6 hours | Partial instrumentation, Fuzzing harness |
 | [Exercise 8](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%208)  | Adobe Reader  | | 8 hours | Fuzzing closed-source applications, QEMU instrumentation|
 | [Exercise 9](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%209)  | 7-Zip  | CVE-2016-2334 | 8 hours | WinAFL, Fuzzing Windows Applications|
-| Exercise 10  | will be released soon  || |
+| [**Exercise 10 (Final Challenge)**](https://github.com/antonio-morales/Fuzzing101/tree/main/Exercise%2010)  | **Google Chrome / V8**  | **CVE-2019-5847** | **8 hours** | **Fuzzilli, Fuzzing Javascript engines** |
 
 ## Changelog
 
+- 02/14/2022: Fixed some 'wget' typos in Exercise 5
 - 11/25/2021: Exercise 3 updated with some fixes.
 
 
@@ -67,6 +68,7 @@ Thanks for their help:
 - [Xu Hanyu](https://github.com/Mundi-Xu)
 - [tclan126](https://github.com/tclan126)
 - [epi052](https://github.com/epi052)
+- [Jeremias Gomes](https://github.com/j3r3mias)
 
 ## Contact
 
